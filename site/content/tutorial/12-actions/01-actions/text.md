@@ -9,7 +9,7 @@ Actions are essentially element-level lifecycle functions. They're useful for th
 * tooltips
 * adding custom event handlers
 
-In this app, we want to make the orange box 'pannable'. It has event handlers for the `panstart`, `panmove` and `panend` events, but these aren't native DOM events. We have to dispatch them ourselves. First, import the `pannable` function...
+In this app, we want to make the red box 'pannable'. It has event handlers for the `panstart`, `panmove` and `panend` events, but these aren't native DOM events. We have to dispatch them ourselves. First, import the `pannable` function...
 
 ```js
 import { pannable } from './pannable.js';
